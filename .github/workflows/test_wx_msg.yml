@@ -7,7 +7,7 @@
 #
 
 
-name: 编译Lede-OpenWrt-Mi-Ac2100固件
+name: 测试微信通知消息
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ on:
       name:
         description: 'Person to greet'
         required: true
-        default: 'Lede-openwrt-mi-ac2100'
+        default: 'Lede-openwrt消息'
 
 
 #编辑任意指定文件触发开始编译
