@@ -7,7 +7,7 @@
 #
 
 
-name: 编译Lede-OpenWrt固件
+name: 编译Lede-OpenWrt_x86_x64固件
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ on:
       name:
         description: 'Person to greet'
         required: true
-        default: 'Lede-openwrt'
+        default: 'Lede-openwrt_x86_x64'
 
 
 #编辑任意指定文件触发开始编译
