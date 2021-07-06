@@ -180,6 +180,7 @@ jobs:
           cp -rf $(find ./bin/ -type f -name "*.ipk") ./package_tmp/
           tar -zcvf ./buildinfo/packages.tar.gz ./package_tmp/*
         )
+        fi
        
         # ===============================================
         # 编译信息文件
@@ -208,8 +209,8 @@ jobs:
         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
         echo "::set-output name=status::success"
 
-        # df -hT $PWD
-        # ls
+        df -hT $PWD
+        ls
     
     - name: 上传.config配置文件在github空间
       uses: actions/upload-artifact@v2
