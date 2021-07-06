@@ -184,8 +184,8 @@ jobs:
        
         # ===============================================
         # 编译信息文件
-        cp -rf $(find openwrt/bin/targets/ -type f -name "*.buildinfo" -o -name "*.manifest" -o -name "sha256sums") openwrt/buildinfo/
-        cp -rf $(find openwrt/bin/targets/ -type f -name "*.bin" -o -name "*.img" -o -name "*.vmdk") openwrt/buildinfo/
+        cp -rf $(find openwrt/bin/targets/ -type f -name "*.buildinfo" -o -name "*.manifest" -o -name "sha256sums") openwrt/buildinfo_tmp/
+        cp -rf $(find openwrt/bin/targets/ -type f -name "*.bin" -o -name "*.img" -o -name "*.vmdk") openwrt/buildinfo_tmp/
         
         mkdir config
         find openwrt/bin/targets/ -name "*config.buildinfo*" | xargs -i mv -f {} config
