@@ -11,7 +11,7 @@ git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/lea
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom  #透明主题
 git clone -b master https://github.com/vernesong/OpenClash.git package/lean/luci-app-openclash  #openclash出国软件
 git clone https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash  #clash出国软件
-git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan  #微信推送
+git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan  #微信推送,小内存路由谨慎安装
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns  #smartdns DNS加速
 git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-eqos  #内网IP限速工具
 git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
@@ -34,7 +34,6 @@ rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/
 git clone https://github.com/destan19/OpenAppFilter.git package/lean/luci-oaf-app  # 应用过滤插件
 
 # 魔改版luci-app-control-weburl，和原版相比可以多种控制模式：关键字过滤、MAC黑名单
-git clone https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-control-weburl package/lean/luci-app-control-weburl
+svn co https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-control-weburl package/lean/luci-app-control-weburl
 
 #钉钉信息推送    
-git clone https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-serverchand package/lean/luci-app-serverchand 
