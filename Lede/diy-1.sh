@@ -36,4 +36,6 @@ git clone https://github.com/destan19/OpenAppFilter.git package/lean/luci-oaf-ap
 # 魔改版luci-app-control-weburl，和原版相比可以多种控制模式：关键字过滤、MAC黑名单
 svn co https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-control-weburl package/lean/luci-app-control-weburl
 
-#钉钉信息推送    
+# 全能信息推送，钉钉推送,企业微信推送,PushPlus推送,微信推送,企业微信应用推送,飞书推送,钉钉机器人推送,企业微信机器人推送,飞书机器人推送,一对多推送,Bark推送(仅iOS)
+git clone https://github.com/zzsj0928/luci-app-pushbot package/lean/luci-app-pushbot
+
