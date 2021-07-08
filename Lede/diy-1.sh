@@ -6,7 +6,6 @@
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
 
-
 #添加自定义插件链接（自己想要什么就github里面搜索然后添加）
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/lean/luci-theme-edge  #主题-edge-动态登陆界面
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom  #透明主题
@@ -33,3 +32,9 @@ rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/
 
 
 git clone https://github.com/destan19/OpenAppFilter.git package/lean/luci-oaf-app  # 应用过滤插件
+
+# 魔改版luci-app-control-weburl，和原版相比可以多种控制模式：关键字过滤、MAC黑名单
+git clone https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-control-weburl package/lean/luci-app-control-weburl
+
+#钉钉信息推送    
+git clone https://github.com/281677160/openwrt-package/trunk/feeds/luci/applications/luci-app-serverchand package/lean/luci-app-serverchand 
