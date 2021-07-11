@@ -184,18 +184,18 @@ jobs:
         mkdir -p openwrt/buildinfo_tmp
         tar -zcvf openwrt/buildinfo_tmp/bin_packages.tar.gz openwrt/bin/*
 
-        ttdir=${PWD}
-        echo "ttdir=$ttdir"
+        # ttdir=${PWD}
+        # echo "ttdir=$ttdir"
 
         mkdir config
         find openwrt/bin/targets/ -name "*config.buildinfo*" | xargs -i mv -f {} config
-        cd openwrt/bin/targets/*/*
+        # cd openwrt/bin/targets/*/*
 
         
        
-        cp -r $ttdir/openwrt/buildinfo_tmp/bin_packages.tar.gz ./
-        rm -rf $ttdir/openwrt/buildinfo_tmp
-        rm -rf $ttdir/openwrt/buildinfo_tmp
+        # cp -r $ttdir/openwrt/buildinfo_tmp/bin_packages.tar.gz ./
+        # rm -rf $ttdir/openwrt/buildinfo_tmp
+        # rm -rf $ttdir/openwrt/buildinfo_tmp
       
 
         # rm -rf packages && mkdir packages
@@ -208,6 +208,9 @@ jobs:
         # find -name "*vmlinuz*" | xargs -i mv -f {} packages
         # find -name "*esxi.vmdk*" | xargs -i mv -f {} packages
         # rm -rf packages
+
+
+        cd openwrt/buildinfo_tmp
 
         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
         echo "::set-output name=status::success"
