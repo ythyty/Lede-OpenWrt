@@ -127,6 +127,7 @@ jobs:
         ./scripts/feeds clean
         ./scripts/feeds update -a
         ./scripts/feeds install -a
+        chmod +x ./scripts/feeds/
         if [ -n "$(ls -A "${{matrix.target}}/files" 2>/dev/null)" ]; then
         (
           cp -rf ${{matrix.target}}/files files
