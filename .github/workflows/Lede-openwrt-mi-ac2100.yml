@@ -128,14 +128,18 @@ jobs:
         ./scripts/feeds update -a
         ./scripts/feeds install -a
         if [ -n "$(ls -A "${{matrix.target}}/files" 2>/dev/null)" ]; then
-         cp -rf ${{matrix.target}}/files files
-		 chmod +x ${{matrix.target}}/files
-		 chmod +x files
+        (
+          cp -rf ${{matrix.target}}/files files
+          chmod +x ${{matrix.target}}/files   
+          chmod +x files
+        )
         fi
         if [ -n "$(ls -A "${{matrix.target}}/diy" 2>/dev/null)" ]; then
-         cp -Rf ${{matrix.target}}/diy/* ./
-		 chmod +x ${{matrix.target}}/diy/
-		 chmod +x ./
+        (
+          cp -Rf ${{matrix.target}}/diy/* ./
+          chmod +x ${{matrix.target}}/diy/
+          chmod +x ./
+        )
         fi        
         if [ -f "${{matrix.target}}/$DIY_P2_SH" ]; then
         (
