@@ -13,7 +13,7 @@
 #git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom  #透明主题
 
 # alex 测试
-git clone https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
+# git clone https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 
 
 
