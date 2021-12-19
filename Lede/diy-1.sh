@@ -15,6 +15,8 @@
 # alex 测试
 # git clone https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+
 
 
 
