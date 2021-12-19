@@ -26,7 +26,8 @@ sed -i '/uci commit system/i\uci set system.@system[0].hostname='OPW-ALEX'' pack
 sed -i "s/OpenWrt /Alex build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
 # openfros 单独处理
-sed -i "s/FROS/Alex build $(TZ=UTC-8 date "+%Y.%m.%d") @ FROS/g" package/lean/default-settings/files/zzz-default-settings
+# sed -i "s/FROS/Alex build $(TZ=UTC-8 date "+%Y.%m.%d") @ FROS/g" package/lean/default-settings/files/zzz-default-settings
+sed -i "s/FROS/Alex build $(TZ=UTC-8 date "+%Y.%m.%d") On (OpenWrt R21.3.27 | openwrt_luci 18.06.8) @ FROS /g" package/lean/default-settings/files/zzz-default-settings
 
 # 修改 argon 为默认主题,可根据你喜欢的修改成其他的（不选择那些会自动改变为默认主题的主题才有效果）
 # sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
