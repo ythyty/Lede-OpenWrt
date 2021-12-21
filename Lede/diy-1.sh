@@ -17,6 +17,9 @@
 
 # git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
+# ttyd 依赖
+git clone https://github.com/coolsnowwolf/lede/tree/master/package/libs/libcap package/libs/libcap
+
 
 
 
