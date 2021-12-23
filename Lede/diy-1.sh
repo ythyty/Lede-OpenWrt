@@ -9,6 +9,10 @@
 # #添加自定义插件链接（自己想要什么就github里面搜索然后添加）
 
 
+# rm -rf feeds/packages/libs/libcap 
+svn co https://github.com/openwrt/packages/trunk/libs/libcap feeds/packages/libs/libcap 
+
+
 #git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/lean/luci-theme-edge  #主题-edge-动态登陆界面
 #git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom  #透明主题
 
