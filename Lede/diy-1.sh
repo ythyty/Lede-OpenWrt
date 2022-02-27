@@ -10,7 +10,7 @@
 
 
 # rm -rf feeds/packages/libs/libcap 
-svn co https://github.com/openwrt/packages/trunk/libs/libcap feeds/packages/libs/libcap 
+# svn co https://github.com/openwrt/packages/trunk/libs/libcap feeds/packages/libs/libcap 
 
 
 #git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/lean/luci-theme-edge  #主题-edge-动态登陆界面
