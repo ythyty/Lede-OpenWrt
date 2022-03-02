@@ -166,7 +166,8 @@ jobs:
         
         # make -j$(($(nproc)+1)) || make -j1 V=s
         
-        make -j1 V=s
+        # make -j1 V=s
+        make -j$(($(nproc) + 1)) V=s
         # 应用过滤插件专用
         # make V=99 
 
