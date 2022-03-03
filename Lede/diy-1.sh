@@ -7,7 +7,7 @@
 
 
 # 增加一行
-sed -i '/allow LINUX_RELEASE?=1/a\allow KERNEL_TESTING_PATCHVER:=5.4' include/kernel-version.mk
+sed -i '/LINUX_RELEASE?=1/a KERNEL_TESTING_PATCHVER:=5.4' include/kernel-version.mk
 
 
 # #添加自定义插件链接（自己想要什么就github里面搜索然后添加）
