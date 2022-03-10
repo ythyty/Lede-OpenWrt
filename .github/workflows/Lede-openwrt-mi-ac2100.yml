@@ -129,6 +129,7 @@ jobs:
         fi
         chmod +x *
         chmod +x ./scripts/feeds
+        chmod +x ./scripts/*
         ./scripts/feeds clean
         ./scripts/feeds update -a
         ./scripts/feeds install -a
