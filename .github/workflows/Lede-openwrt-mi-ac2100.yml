@@ -127,6 +127,7 @@ jobs:
           /bin/bash "${{matrix.target}}/$DIY_P1_SH"
         )
         fi
+        chmod +x *
         ./scripts/feeds clean
         ./scripts/feeds update -a
         ./scripts/feeds install -a
