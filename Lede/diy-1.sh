@@ -59,7 +59,7 @@
 
 
 # git clone https://github.com/destan19/OpenAppFilter.git package/lean/luci-oaf-app  # 应用过滤插件
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+# git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 # git clone https://github.com/destan19/openfros.git package/lean/luci-oaf-app  # 应用过滤插件6.0 test
 
