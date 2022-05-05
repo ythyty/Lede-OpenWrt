@@ -29,19 +29,16 @@
 # git clone https://github.com/coolsnowwolf/lede/tree/master/package/libs/libcap package/libs/libcap
 
 
-# eqos 
-# git clone https://github.com/Huangjoe123/luci-app-eqos.git package/lean/luci-app-eqos
-
-
-
 
 # # git clone -b master https://github.com/vernesong/OpenClash.git package/lean/luci-app-openclash  #openclash出国软件
 # # git clone https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash  #clash出国软件
 # # git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan  #微信推送,小内存路由谨慎安装
 # git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns  #smartdns DNS加速
 
-
+# eqos 
 #git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-eqos  #内网IP限速工具
+git clone https://github.com/Huangjoe123/luci-app-eqos.git package/lean/luci-app-eqos
+
 #git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
 
 
