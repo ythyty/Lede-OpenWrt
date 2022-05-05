@@ -29,6 +29,10 @@
 # git clone https://github.com/coolsnowwolf/lede/tree/master/package/libs/libcap package/libs/libcap
 
 
+# eqos 
+# git clone https://github.com/Huangjoe123/luci-app-eqos.git package/lean/luci-app-eqos
+
+
 
 
 # # git clone -b master https://github.com/vernesong/OpenClash.git package/lean/luci-app-openclash  #openclash出国软件
