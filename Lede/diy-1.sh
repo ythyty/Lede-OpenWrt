@@ -37,7 +37,9 @@
 
 # eqos 
 #git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-eqos  #内网IP限速工具
-git clone https://github.com/Huangjoe123/luci-app-eqos.git package/lean/luci-app-eqos
+#git clone https://github.com/Huangjoe123/luci-app-eqos.git package/lean/luci-app-eqos
+git clone https://github.com/yeungle/luci-app-eqos.git package/lean/luci-app-eqos
+
 
 #git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
 
