@@ -36,8 +36,8 @@
 # git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns  #smartdns DNS加速
 
 # eqos 
-#git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-eqos  #内网IP限速工具
-git clone https://github.com/Huangjoe123/luci-app-eqos.git package/lean/luci-app-eqos
+# git clone https://github.com/garypang13/luci-app-eqos.git package/lean/luci-app-eqos  #内网IP限速工具
+# git clone https://github.com/Huangjoe123/luci-app-eqos.git package/lean/luci-app-eqos
 # git clone https://github.com/yeungle/luci-app-eqos.git package/lean/luci-app-eqos
 
 
