@@ -19,6 +19,7 @@
 
 #git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/lean/luci-theme-edge  #主题-edge-动态登陆界面
 #git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom  #透明主题
+git clone https://github.com/kenzok78/luci-theme-argonne.git package/lean/luci-theme-argonne  # fros 使用
 
 # alex 测试
 # git clone https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
