@@ -181,10 +181,11 @@ jobs:
         # make -j$(($(nproc)+1)) || make -j1 V=s
         
         # 第一次编译推荐
-        make -j1 V=s
+        # make -j1 V=s
 
         # 二次编译，也可以用这个
         # make -j$(($(nproc) + 1)) V=s
+        make V=s -j$(nproc)
 
         # 应用过滤插件专用
         # make V=99 
