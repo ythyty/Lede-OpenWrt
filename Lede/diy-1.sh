@@ -65,6 +65,8 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/lean/luci-t
 # git clone https://github.com/destan19/OpenAppFilter.git package/lean/luci-oaf-app  # 应用过滤插件
 # git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+
 # git clone https://github.com/destan19/openfros.git package/lean/luci-oaf-app  # 应用过滤插件6.0 test
 
 # # 魔改版luci-app-control-weburl，和原版相比可以多种控制模式：关键字过滤、MAC黑名单
